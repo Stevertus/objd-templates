@@ -2,9 +2,9 @@ import 'package:objd/core.dart';
 
 part 'index.g.dart';
 
-@Prj(name: 'folder name')
+@Prj(name: '%project%')
 final example = Pack(
-  name: 'mypack',
+  name: '%namespace%',
   modules: [
     ClickEvent(
       name: 'onclick',
