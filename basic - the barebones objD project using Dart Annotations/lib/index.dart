@@ -5,5 +5,5 @@ import 'pack/%namespace%_pack.dart';
 
 part 'index.g.dart';
 
-@Prj(name: '%project%', target: '../')
+@Prj(name: '%project%', target: '../',version: %version%)
 final starter = StarterPack();

@@ -3,9 +3,9 @@ import 'package:objd/core.dart';
 import '../files/load.dart';
 import '../files/main.dart';
 
-class ExamplePack extends Widget {
+class %Namespace%Pack extends Widget {
   /// There is a folder for all packs inside a project, I recommend to give each pack an own widget
-  ExamplePack();
+  %Namespace%Pack();
 
   @override
   Widget generate(Context context) {

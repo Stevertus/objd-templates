@@ -2,7 +2,7 @@ import 'package:objd/core.dart';
 
 part 'index.g.dart';
 
-@Prj(name: '%project%')
+@Prj(name: '%project%',version: %version%)
 final example = Pack(
   name: '%namespace%',
   modules: [

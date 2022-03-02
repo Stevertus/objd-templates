@@ -2,7 +2,7 @@
 
 In this repository you can find various templates and examples to set up objD.
 
-Every folder here can be used as a template in the objD CLI:
+Every folder here can be used as a template in the [objD CLI](https://github.com/Stevertus/objD-cli):
 
 `objd new [name]` (Creates a new project directory)
 

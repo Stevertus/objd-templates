@@ -2,15 +2,15 @@
 
 import 'package:objd/core.dart';
 // import the custom pack:
-import 'packs/%namespace%_pack.dart';
+import './packs/%namespace%_pack.dart';
 
 void main(List<String> args) {
   createProject(
     Project(
       name: '%project%',
-      version: 18,
+      version: %version%,
       target: './', // path for where to generate the project
-      generate: ExamplePack(), // The starting point of generation
+      generate: %Namespace%Pack(), // The starting point of generation
     ),
     args,
   );
