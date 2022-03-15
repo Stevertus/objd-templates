@@ -10,10 +10,10 @@ final starter = [
 
 @Func()
 final tick = <Widget>[
-  /// Write your main code here
+  // Write your main code here
 ];
 
 @Func()
 final load = <Widget>[
-  /// Write your load code here
+  // Write your load code here
 ];
